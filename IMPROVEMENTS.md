@@ -12,4 +12,5 @@ There are quite a few improvements intentionally left out of the codebase for yo
 - Add rateLimit mechanism which prevent from DDoS attack. 
 - Under the error logging we should add whatever observability tool you have and log that error there. 
 - Need to add generic exception handling which is reusable all across the code. In this way, we can standardize the error messages.
+- Use object based parameters IF its more than 1 parameter. function x({id, name}:{id:number, name:string})
 - what is the reason why we are using zod not joi or ajv for validation?
